@@ -4,10 +4,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class PriceCalculatortest {
+
     @Test
     public void checkTotalPrice(){
 
-        Fruit banana = new Fruit("Banana", 100);
+        Fruit banana =  new Fruit("Banana", 100);
         Fruit banana1;
 
         Basket basket = new Basket();
